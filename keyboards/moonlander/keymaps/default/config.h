@@ -19,3 +19,6 @@
 #pragma once
 
 #define ORYX_CONFIGURATOR
+#define USB_POLLING_INTERVAL_MS 1
+#undef DEBOUNCE
+#define DEBOUNCE 1
